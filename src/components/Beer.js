@@ -7,8 +7,8 @@ import React from "react";
   //vagy
   //const {beerData} = props
 
-  const { title, sub } = beerData
-  
+  const { title, sub } = props.beerData
+
   return (
     <div>
       <h1>{title}</h1>
