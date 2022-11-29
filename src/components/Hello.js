@@ -1,9 +1,10 @@
 import './Hello.css';
 
-function Hello() {
+function Hello(props) {
+  console.log(props);
   return (
     <div className="Hello"> 
-    <p>Első komponens megszületett.</p>
+      I am {props.name} and I am {props.age} years old.
     </div>
   );
 }
