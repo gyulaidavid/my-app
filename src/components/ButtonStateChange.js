@@ -8,9 +8,9 @@ function ButtonStateChange() {
 
   return (
    
-         <button
+      <button
         onClick={() => {
-          if (buttonText === "click here") {
+          if (buttonText === "Click here") {
             setButtonText("clicked");
           } else {
             setButtonText("stop clicking");
