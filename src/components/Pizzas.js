@@ -12,6 +12,7 @@ function Pizzas({setCount}) {
       })
       .then(function (data) {
         setPizzas(data);
+        console.log(data);
       });
   }, []);
 
