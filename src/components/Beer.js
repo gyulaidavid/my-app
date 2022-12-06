@@ -1,13 +1,13 @@
 import React from "react";
 
 // function Beer({beerData}) {
-    function Beer(props) {
+function Beer(props) {
   console.log(props);
-  //const beerData = props.beerData 
+  //const beerData = props.beerData
   //vagy
   //const {beerData} = props
 
-  const { title, sub } = props.beerData
+  const { title, sub } = props.beerData;
 
   return (
     <div>
